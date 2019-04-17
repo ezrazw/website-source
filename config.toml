@@ -18,12 +18,6 @@ copyright = "Zhenhua Wang © This post is licensed under a Creative Commons Attr
 
 # Initial site menu, you can extend menu with content.
 
-[[menu.main]]
-  name = "Tags"
-  weight = 50
-  identifier = "tags"
-  url = "/tags/"
-
 # Add your own params here
 [params]
   author = "Zhenhua Wang"
