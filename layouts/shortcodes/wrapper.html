@@ -1,0 +1,21 @@
+{{ if .Get 1 }}
+{{ if eq (.Get 1) "div" }}
+<div class="{{ if .Get 0 }}{{ .Get 0 }}{{ end }}" style="{{ if .Get 2 }}{{ .Get 2 }}{{ end }}">
+{{ end }}
+{{ if eq (.Get 1) "blockquote" }}
+<blockquote class="{{ if .Get 0 }}{{ .Get 0 }}{{ end }}">
+{{ end }}
+{{ else }}
+<div class="{{ if .Get 0 }}{{ .Get 0 }}{{ end }}" style="{{ if .Get 2 }}{{ .Get 2 }}{{ end }}">
+{{ end }}
+  {{ .Inner | markdownify }}
+{{ if .Get 1 }}
+{{ if eq (.Get 1) "div" }}
+</div>
+{{ end }}
+{{ if eq (.Get 1) "blockquote" }}
+</blockquote>
+{{ end }}
+{{ else }}
+</div>
+{{ end }}

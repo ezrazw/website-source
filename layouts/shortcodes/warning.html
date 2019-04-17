@@ -1,0 +1,8 @@
+<div class="box" style="color:{{ if .Get 1 }}{{ .Get 1 }}{{ else }}#FB8{{ end }}; padding-bottom:40px">
+  <div style="float: left;"> 
+    <p><i class="fa {{ if .Get 2 }}{{ .Get 2 }}{{ else }}fa-exclamation-triangle{{ end }}" aria-hidden="true" style="font-size: 50px"></i></p>
+  </div>
+  <div style="margin-left: 60px; font-style:normal;">
+    <p>{{ .Get 0 }}</p>
+  </div>
+</div>

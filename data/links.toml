@@ -1,0 +1,11 @@
+[01-uh]
+  title = "University of Houston"
+  link = "http://www.uh.edu/"
+  avatar = "./uh.png"
+  description = "Located near the heart of Houston, this public, tier one research university offers over 300 degrees and programs and award-winning faculty."
+
+[02-cainmagi]
+  title = "Yuchen Jin"
+  link = "https://cainmagi.github.io"
+  avatar = "./cainmagi.jpg"
+  description = "A Ph.D student in UH. Interested area includes: machine learning, programming and religion."

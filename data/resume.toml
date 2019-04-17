@@ -1,0 +1,73 @@
+name = "Zhenhua Wang"
+
+# These two variable definitions need to go before [contact], etc.
+languages = [
+  "Chinese (native)",
+  "English (fluent with high proficiency)"
+]
+
+interests = [
+  "Reading",
+  "Table tennis"
+]
+
+[contact]
+
+  [[contact.list]]
+    class = "email"
+    url = "mailto:ezrazwang@gmail.com"
+    title = "ezrazwang@gmail.com"
+
+  [[contact.list]]
+    class = "phone"
+    url = "tel:832-904-1589"
+    title = "+1 (832) 904-1589"
+
+  [[contact.list]]
+    class = "github"
+    url = "//github.com/ezrazw"
+    title = "github.com/ezrazw"
+
+  [[contact.list]]
+    class = "website"
+    url = "./Zhenhua_CV.pdf"
+    title = "Full CV"
+
+[education]
+
+  [[education.list]]
+    degree = "PhD. Mathematics"
+    school = "University of Houston"
+    year = "2013 - 2019"
+    description = "Thesis: Theory of Jordan operator algebras and operator *-algebras."
+
+  [[education.list]]
+    degree = "M.Sc. Mathematics"
+    school = "Jilin University"
+    year = "2010 - 2013"
+    description = ""
+
+  [[education.list]]
+    degree = "B.S. Mathematics"
+    school = "Jilin University"
+    year = "2006 - 2010"
+    description = ""
+
+
+[experience]
+
+  [[experience.list]]
+    name = "University of Georgia"
+    company = "University of Georgia"
+    location = "Athens, GA, USA"
+    title = "Limited Term Assistant Professor"
+    year = "8/2019 - now"
+    description = ""
+
+  [[experience.list]]
+    name = "University of Houston"
+    company = "University of Houston"
+    location = "Houston, TX, USA"
+    title = "Instructor"
+    year = "8/2017 - 12/2018"
+    description = ""
